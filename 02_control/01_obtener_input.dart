@@ -2,7 +2,8 @@ import 'dart:io';
 
 main() {
   // imprimir en la terminal o cli
-  stdout.write('¿Cuál es tu nombre? ');
+  // stdout.write('¿Hola mundo?\n ');    // \n es salto de línea
+  stdout.writeln('¿Cuál es tu nombre? ');
 
   // Leer información
   String? nombre = stdin.readLineSync();

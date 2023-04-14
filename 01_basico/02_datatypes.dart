@@ -1,6 +1,6 @@
 main() {
 
-  // Números
+  // ==== Números
   int a = 10;
   double b = 5.5;
 
@@ -11,7 +11,7 @@ main() {
 
   // print(_a + $b);
 
-  // Strings
+  // ==== Strings
   String nombre = 'Tony';
   String nombre2 = 'Tony';
   String nombre3 = 'O\'Connor';
@@ -38,13 +38,16 @@ main() {
   // ==== List
   List<String> villanos = ['Lex', 'Red Skull', 'Doom'];
   villanos.add('Duende Verde');
+  villanos.add('Duende Verde');
+  villanos.add('Duende Verde');
   // print(villanos);
 
   var villanosSet = villanos.toSet();
   // print(villanosSet.toList());
 
   // ===== Sets
-  var villanos2 = {'Let', 'Red Skull', 'Doom'};
+  // var villanos2 = {'Let', 'Red Skull', 'Doom'};
+  Set<String> villanos2 = {'Let', 'Red Skull', 'Doom'};
   villanos2.add('Duende Verde');
   villanos2.add('Duende Verde');
   villanos2.add('Duende Verde');
@@ -61,7 +64,8 @@ main() {
     'nivel': 9000,
   };
 
-  // print(ironman['nivel'] );
+  print(ironman);
+  print(ironman['nivel'] );
 
   Map<String, dynamic> capitan = new Map();
 
@@ -71,6 +75,6 @@ main() {
     'nivel' : 5000
   });
 
-  print( capitan );
+  // print( capitan );
 }
 

@@ -1,5 +1,6 @@
 main() {
   var mensaje = saludar();
+  saludar();
 
   print(mensaje);
 }

@@ -8,7 +8,7 @@ main() {
 
     print(i);
 
-    if ( i == 2 ) {
+    if ( i == 7 ) {
       break;
     }
   }

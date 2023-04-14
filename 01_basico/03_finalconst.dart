@@ -1,19 +1,21 @@
 // void main(List<String> args) {
   
-//   var a = 10;
-//   final b = 10;
-//   const c = 10;
+// //   var a = 10;
+// //   final b = 10;
+// //   const c = 10;
   
-//   // a = 20;
-//   // b = 20;
-//   // c = 20;
+// //   // a = 20;
+// //   // b = 20;
+// //   // c = 20;
 
-//   // final personasFinal = ['Juan', 'Pedro', 'Fernando'];
-//   // final personasConst = ['Juan', 'Pedro', 'Fernando'];
+//     final personasFinal = ['Juan', 'Pedro', 'Fernando'];
+//     const personasConst = ['Juan', 'Pedro', 'Fernando'];
 
-//   personasFinal.add('Maria');
+//    personasFinal.add('Maria');
+//   //  personasConst.add('Maria');
 
-//   print(personasConst);
+//    print(personasFinal);
+//    print(personasConst);
 // }
 
 void main(List<String> args) {
@@ -23,6 +25,7 @@ void main(List<String> args) {
 
   final double z;
 
+  // final double x;
   late final double x;
   x = 10;
 
@@ -36,5 +39,5 @@ void main(List<String> args) {
 
   // z = 20;
 
-  print('Resultado: $z');
+  // print('Resultado: $z');
 }

@@ -12,7 +12,6 @@ main() {
     
     stdout.writeln('desea continuar? (y/n)');
     continuar = stdin.readLineSync() ?? 'n';
-    
 
   } while (continuar == 'y'); 
 
